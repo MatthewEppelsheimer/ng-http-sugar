@@ -1,6 +1,11 @@
 {
 	"name": "ng-http-sugar",
 	"version": "0.1.0",
+	"license": "GPL-2.0-or-later",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MatthewEppelsheimer/ng-http-sugar"
+	},
 	"peerDependencies": {
 		"@angular/common": "^6.0.0-rc.0 || ^6.0.0",
 		"@angular/core": "^6.0.0-rc.0 || ^6.0.0"
