@@ -96,7 +96,7 @@ With `HttpService`, you can make the same request much more compactly:
 
 ```typescript
 import { Injectable } from '@angular/core';
-import { HttpService } from 'http-sugar';
+import { HttpService } from 'ng-http-sugar';
 
 @Injectable()
 export class MyService {
@@ -153,10 +153,11 @@ export class MyService {
 ### Including in your application ###
 
 1. Include this module in your Angular 6.x or later project with `npm install --save 'ng-http-sugar'`.
-2. Where needed in your application's code, import the following from the module to make calls on:
+2. Import the `HttpSugarModule` into your application's root module from `ng-http-sugar`
+3. Where needed in your application's code, import the following from the module to make calls on:
 
 ```typescript
-import { HttpService } from 'http-sugar';
+import { HttpService } from 'ng-http-sugar';
 ```
 
 ## Roadmap ##
